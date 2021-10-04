@@ -164,3 +164,7 @@ Remember that we are all here to answer any questions and support you during all
 DevelopergamesEMEA@redhat.com
 
 Happy Developer Games!
+
+mvn clean package -Ddekorate.build=true  -Ddekorate.push=true
+oc apply -f target/classes/META-INF/dekorate/openshift.yml
+
